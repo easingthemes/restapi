@@ -1,0 +1,10 @@
+{
+  "name": "simple",
+  "version": "1.0.0",
+  "description": "Simple REST API example",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.10.7"
+  }
+}
