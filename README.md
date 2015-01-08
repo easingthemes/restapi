@@ -1,14 +1,14 @@
-1. Create project.json file
+##1. Create project.json file
 
 `npm init`
 
-2. Install node modules
+##2. Install node modules
 
 `npm install express --save` 
 `npm install mongoose --save` 
 `npm install body-parser --save` 
 
-3. Install Dev modules for Grunt tasks
+##3. Install Dev modules for Grunt tasks
 
 `npm install grunt --save-dev` 
 `npm install grunt-contrib-watch --save-dev` 
