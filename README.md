@@ -1,17 +1,22 @@
+## Tools list
+nodejs, mongodb, grunt, bower
+
 ## Scafold project and install extensions
-###1. Create project.json file
+####1. Create `project.json` file
 
 `npm init`
 
-###2. Install node modules
+####1. Create `Gruntfile.js` file
 
-`npm install express --save` 
-`npm install mongoose --save` 
-`npm install body-parser --save` 
+Gruntfile.js
 
-###3. Install Dev modules for Grunt tasks
+####2. Install node modules
 
-`npm install grunt --save-dev` 
-`npm install grunt-contrib-watch --save-dev` 
-`npm install grunt-express-server --save-dev` 
-`npm install grunt-open --save-dev` 
+`npm install express mongoose body-parser --save`
+
+####3. Install Dev modules for Grunt tasks
+
+`npm install grunt-contrib-watch grunt-express-server grunt-open --save-dev` 
+
+
+

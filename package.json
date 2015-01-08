@@ -2,9 +2,24 @@
   "name": "simple",
   "version": "1.0.0",
   "description": "Simple REST API example",
-  "author": "",
+  "keywords": [
+    "rest, api, nodejs, mongodb, express"
+  ],
+  "author": "Dragan Filipovic",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/easingthemes/restapi.git"
+  },
   "license": "ISC",
   "dependencies": {
-    "express": "^4.10.7"
+    "body-parser": "^1.10.1",
+    "express": "^4.10.7",
+    "mongoose": "^3.8.21"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-express-server": "^0.4.19",
+    "grunt-open": "^0.2.3"
   }
 }
