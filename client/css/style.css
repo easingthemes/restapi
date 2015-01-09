@@ -1,1 +1,153 @@
- 
+body {
+	margin: 0;
+	padding: 0;
+	color: #444;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+section {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+section:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+section > div {
+	float: left;
+	width: 50%;
+	box-sizing: border-box; 
+}
+section > div:last-child {
+	 padding-left: 30px;
+}
+h1 {
+
+}
+h2 {
+	position: relative;
+	border-bottom: 1px solid #F5F5F5;
+
+}
+h2 > span {
+	width: 100px;
+}
+h4 {
+
+}
+ul {
+	margin: 20px 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+	position: relative;
+	margin: 10px 0;
+}
+li:nth-child(odd) p {
+	
+}
+li > p:before,
+article > h3:before,
+article > div:before {
+	content: 'Title: ';
+	font-weight: 700;
+	background: #ddd;
+	display: inline-block;
+	padding: 0 5px;
+	margin-right: 5px;
+	width: 70px;
+	cursor: pointer;
+}
+li > p:hover:before,
+article > h3:hover:before,
+article > div:hover:before {
+	opacity: 0.8;
+}
+li p {
+	line-height: 29px;
+	font-size: 1.2em;
+	margin-right: 105px;
+	background: #F5F5F5;
+}
+h3, h4 {
+	font-size: 1.2em;
+}
+.empty-list {
+	height: 30px;
+}
+.empty-list:before {
+	content: 'Database empty. Create new item first.';
+	font-size: 1.2em;
+	font-weight: 700;
+}
+li button, 
+h2 > span,
+h2 > small {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+input, textarea {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 10px auto;
+	border-radius: 3px;
+	border: 1px solid #ddd;
+	padding: 5px;
+}
+input {
+	font-size: 1em;
+}
+button {
+	padding: 5px 10px;
+	display: inline-block;
+	text-align: center;
+	width: 100px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	color: #797979;
+	line-height: 17px;
+}
+button:hover {
+	opacity: 0.8;
+}
+textarea {
+	min-height: 120px;
+}
+article > div:before {
+	content: 'Content: ';
+}
+h2 small {
+	color: #ccc;
+}
+h3,
+article > div {
+	border-bottom: 1px solid #F5F5F5;
+	background: #F5F5F5;
+	line-height: 30px;
+}
+article > div {
+	min-height: 100px;
+	margin-bottom: 10px;
+	background: #F5F5F5;
+}
+article > span {
+	padding-left: 20px;
+	font-size: 0.8em;
+}
+footer, header {
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+}
+footer {
+	margin-top: 40px;
+	padding: 30px 0;
+}
+
+

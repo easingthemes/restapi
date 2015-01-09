@@ -2,18 +2,32 @@
 <html>
 <head>
 	<title>Simple REST API</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+	<header>
+		<h1>HELLLO API</h1>
+	</header>
+	
 	<section>
-		<h1>hello api</h1>
-		<ul></ul>
-		<input type="text">
-		<textarea></textarea>
-		<button>Create item</button>
-		<ol></ol>
-		<article></article>
+		<div>
+			<h2>Read <span>Delete</span></h2>
+			<ul></ul>
+			<h2>Create</h2>
+			<input type="text" placeholder="Enter item Title">
+			<textarea placeholder="Enter item Content"></textarea>
+			<button class="create">create</button>
+		</div>
+		<div>
+			<h2>Update <small>Click on text and edit</small></h2>
+			<article>
+				<h4>Select item to update: Click on item Title</h4>
+			</article>
+		</div>	
 	</section>
+
+	<footer>CRUD: nodejs, express, mongoDB + jQuery AJAX</footer>
 
 	<script type="text/javascript" src="lib/jquery-1.11.2.min.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
