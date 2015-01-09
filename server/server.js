@@ -1,12 +1,12 @@
 var express = require("express"),
 	mongoose = require('mongoose'),
-	//bodyParser = require('body-parser'),
+	bodyParser = require('body-parser'),
     server = express(),
     hostname = 'localhost',
     port = 3000; 
 
 server.use(express.static(__dirname + '/../client'));
-//server.use(bodyParser.json());
+server.use(bodyParser.json());
 server.listen(port, hostname);
 console.log("Server: Express listening: http://" + hostname + ":" + port);
 
@@ -18,3 +18,8 @@ mongoose.connect('mongodb://localhost/simple', function(err) {
         console.log('Database: MongoDB connection successful');
     }
 });
+
+// Import routes.js
+require('./routes')(server);
+// Export module
+exports = module.exports = server;
