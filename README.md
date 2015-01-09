@@ -8,6 +8,11 @@ grunt serve
 ## If you want to learn
 Follow this readme and build your app from scratch.
 
+If you use Grunt and Node modules for front-end, but you never tried server side javaScript, this tutorial is for you.
+
+App is based on Yeoman generator angular-fullstack, but simplified a lot, and without Angular :). This is great intro for diving deeper in Angular and MEAN stack. 
+
+Actually this project helped me alot to finally understand some aspects of back-end development, and to separate Angular from Node.
 ## Tools list
 nodejs, mongodb, grunt
 
