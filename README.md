@@ -438,7 +438,8 @@ jQuery(document).ready(function($) {
 });
 ```
 #### DONE: 
-Starring: nodejs with express, mongodb with mongoose
-Also Starring: body-parser, lodash
-Guest Starring: Grunt
-Thanks to: grunt-contrib-watch, grunt-express-server and grunt-open
+*Starring*: nodejs with express, mongodb with mongoose
+
+*Also Starring**: Grunt
+
+*Thanks to*: body-parser, lodash, grunt-contrib-watch, grunt-express-server and grunt-open
