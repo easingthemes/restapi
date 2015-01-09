@@ -1,5 +1,15 @@
+## If you want to try it
+```
+git clone https://github.com/easingthemes/restapi.git
+cd restapi
+npm install
+grunt serve
+```
+## If you want to learn
+Follow this readme and build your app from scratch.
+
 ## Tools list
-nodejs, mongodb, grunt, bower
+nodejs, mongodb, grunt
 
 ## Scafold project directories and files
 ```
@@ -310,14 +320,6 @@ exports.delete = function(req, res) {
 };
 ```
 #### ROUTER: Create API router
-/**
- * Using Rails-like standard naming convention for endpoints.
- * GET     /items              ->  index
- * POST    /items              ->  create
- * GET     /items/:id          ->  show
- * PUT     /items/:id          ->  update
- * DELETE  /items/:id          ->  delete
- */
 ```
 router.get('/', controller.index);
 router.get('/:id', controller.show);
