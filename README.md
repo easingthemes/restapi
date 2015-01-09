@@ -44,7 +44,7 @@ Gruntfile.js
 
 ####2. Install node modules
 
-`npm install express mongoose body-parser --save`
+`npm install express mongoose body-parser lodash --save`
 
 ####3. Install Dev modules for Grunt tasks
 
