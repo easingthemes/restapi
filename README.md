@@ -1,4 +1,9 @@
 ## If you want to try it
+Start mongodb
+```
+mongod
+```
+start project
 ```
 git clone https://github.com/easingthemes/restapi.git
 cd restapi

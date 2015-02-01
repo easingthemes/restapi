@@ -3,6 +3,6 @@ module.exports = function(server) {
     // All other routes should redirect to the index.html
   server.route('/*')
     .get(function(req, res) {
-      res.sendfile('app/index.html');
+      res.sendfile('client/index.html');
     });
 };
